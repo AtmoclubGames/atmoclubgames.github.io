@@ -1,1 +1,26 @@
+body{
+    /* width: max-content; */
+    /* height: auto; */
+    background-image: url(/images/y_rect.svg);
+    background-repeat:repeat;
+}
 
+.menu_block{
+    display: flex;
+    /* align-items: flex-end; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_img{
+    width: 600px;
+    height: 600px;
+    background-image: url(/images/Frame_39283.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
