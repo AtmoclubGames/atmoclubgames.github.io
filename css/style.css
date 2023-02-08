@@ -25,3 +25,8 @@ body{
     background-repeat: no-repeat;
 
 }
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    /* grid-row: 1; */
+}
