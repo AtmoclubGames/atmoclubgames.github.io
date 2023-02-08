@@ -18,8 +18,8 @@ body{
     align-items: center;
 }
 .header_img{
-    width: 600px;
-    height: 600px;
+    width: 851px;
+    height: 548px;
     background-image: url(/images/Frame_39283.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,4 +29,31 @@ body{
     display: flex;
     flex-direction: row;
     /* grid-row: 1; */
+}
+
+.main_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    /* height: 700px; */
+    margin: 16px;
+    padding: 8px;
+}
+.main_block_body_backward{
+    padding-bottom: 18px;
+    padding-right: 16px;
+    /* padding-left: 2px; */
+    /* padding-top: 2px; */
+    background-color: black;
+    border-radius: 24px;
+    border: solid snow;
+}
+
+.main_block_body{
+    width: 800px;
+    height: 1000px;
+    background-color: blueviolet;
+    border-radius: 22px;
+    border: solid rgb(15, 15, 15) 4px;
 }
