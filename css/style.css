@@ -16,10 +16,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .header_img{
-    width: 851px;
-    height: 548px;
+    width: 60vh;
+    height: 50vh;
     background-image: url(/images/Frame_39283.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -35,7 +36,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 80%; */
+    /* width: 50em; */
     /* height: 700px; */
     margin: 16px;
     padding: 8px;
@@ -51,7 +52,7 @@ body{
 }
 
 .main_block_body{
-    width: 800px;
+    width: 50em;
     height: 1000px;
     background-color: blueviolet;
     border-radius: 22px;
