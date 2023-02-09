@@ -19,7 +19,7 @@ body{
     
 }
 .header_img{
-    width: 60vw;
+    width: 80vw;
     height: 60vh;
     background-image: url(/images/Frame_39283.svg);
     background-size: contain;
@@ -53,7 +53,7 @@ body{
 }
 
 .main_block_body{
-    width: 60vw;
+    width: 80vw;
     height: 1000px;
     background-color: blueviolet;
     border-radius: 22px;
