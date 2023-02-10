@@ -72,6 +72,9 @@ body{
     border-radius: 22px;
     border: solid rgb(15, 15, 15) 4px;
     padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .game_card{
 box-sizing: border-box;
