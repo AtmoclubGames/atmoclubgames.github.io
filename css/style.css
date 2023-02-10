@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-family: 'Raleway';
+    font-size: 1em;
+    font-weight: 700;
+    color: #000000;
+
+}
+
 body{
     /* width: max-content; */
     /* height: auto; */
@@ -27,6 +37,7 @@ body{
     background-position: center;
 
 }
+
 .header_menu{
     display: flex;
     width: 100vw;
@@ -76,6 +87,17 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+.main_block_body_navigation{
+ width: 100%; 
+ margin: 8px;
+ padding: 8px;
+ padding-left: 10%;
+ padding-right: 10%;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between; 
+}
 .game_card{
 box-sizing: border-box;
 width: 300px;
@@ -90,6 +112,12 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
+
+.game_card:hover{
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0px #000000, 3px 3px 0px #FFFFFF;
+}
+
 .game_card_name{
     padding: 8px;
     text-align: center;
@@ -102,7 +130,9 @@ justify-content: space-between;
 width: 100%;
 height: 278px;
 padding: 16px;
-background: #FFFFF1;
+/* clip-path: url(/images/Rectangle_25.svg); */
+background-image: none;
+background: #2a753b;
 border: 3px solid #000000;
 border-radius: 26px;
 display: flex;
@@ -110,15 +140,25 @@ flex-direction: column;
 justify-content: end;
 }
 .game_card_button{
-    align-self: flex-end;
-    /* width: 100px; */
-/* height: 40px; */
+align-self: flex-end;
 text-align: center;
-padding: 1em;
-padding-left: 2em;
-padding-right: 2em;
-background: #5E0F7A;
-border: 1px solid #FFD90F;
-border-radius: 8px;
+font-family: 'Raleway';
+font-size: 1.5em;
+font-weight: 700;
+color: #FBD800;
+padding: 0.4em;
+padding-left: 1.6em;
+padding-right: 1.6em;
+
+background: #6500B6;
+border: 2px solid #000000;
+box-shadow: 4px 4px 0px #000000;
+/* background: #223985; */
+/* border: 3px solid #FBD800; */
+border-radius: 14px;
 cursor: pointer;
+}
+.game_card_button:hover{
+    border: 1px solid #000000;
+    box-shadow: 2px 4px 0px #000000; 
 }
