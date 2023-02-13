@@ -17,6 +17,7 @@ body{
 
 .menu_block{
     display: flex;
+    margin: 10vw;
     /* align-items: flex-end; */
     flex-direction: row;
     flex-wrap: wrap;
@@ -65,6 +66,56 @@ body{
     /* height: 700px; */
     margin: 16px;
     padding: 8px;
+}
+
+.main_block_body_navigation_sort_button{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #6500B6;
+    background: #FBD800;
+border: 4px solid #000000;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 8px;
+padding: 0.6em;
+padding-left: 1.4em;
+padding-right: 1.4em;
+user-select: none;
+cursor: pointer;
+}
+.main_block_body_navigation_filter_button{
+background: #FF05AF;
+display: flex;
+justify-content: center;
+border: 4px solid #000000;
+box-shadow: 6px 6px 0px #000000;
+border-radius: 8px;
+/* width: 3.8em; */
+/* height: 2.8em; */
+padding: 0.2em;
+cursor: pointer;
+/* padding-left: 1.4em;
+padding-right: 1.4em;
+user-select: none; */
+}
+/* .main_block_body_navigation_filter_button:hover{
+    border: 3px solid #000000;
+box-shadow: 5px 5px 0px #000000;
+} */
+.main_block_body_navigation_filter_button_img{
+    display: flex;
+   background-image: url(/images/btn_sel_01.svg);
+background-repeat: no-repeat;
+background-size: contain; 
+background-position: center;
+width: 50px;
+height: 36.8px;
+margin: 0.1em;
+
+/* padding: 0.1em; */
+}
+.main_block_body_navigation_filter_button_img:hover{
+    background-image: url(/images/btn_sel_02.svg);
 }
 .main_block_body_backward{
     padding-bottom: 18px;
@@ -160,6 +211,7 @@ box-shadow: 4px 4px 0px #000000;
 /* border: 3px solid #FBD800; */
 border-radius: 14px;
 cursor: pointer;
+user-select: none;
 }
 .game_card_button:hover{
     border: 1px solid #000000;
