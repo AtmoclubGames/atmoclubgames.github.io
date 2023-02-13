@@ -1,0 +1,11 @@
+[
+    {
+        "name": ["Моя превая игра"],
+        "author": "Ученик",
+        "age": "10",
+        "about":["О игре."],
+        "ico":["img_001.png"],
+        "link":["game.html"],
+        "ide":["Scratch"]
+    }
+]
