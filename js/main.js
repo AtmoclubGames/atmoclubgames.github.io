@@ -50,20 +50,69 @@ function playGame(gameUrl) {
     
     // Создаем кнопку закрытия
     var closeButton = document.createElement("button");
-    closeButton.textContent = "Закрыть";
+    closeButton.textContent = "X";
+    closeButton.style.fontWeight = 'bold';
+    closeButton.style.width ='42px'
+    closeButton.style.height='38px';
     closeButton.style.position = "absolute";
     closeButton.style.top = "10px";
     closeButton.style.right = "10px";
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = '#000';
+    closeButton.style.backgroundColor = '#FF05AF';
+    closeButton.style.boxShadow='2px 3px 0px #000000'
+    closeButton.style.border = '3px solid #000000';
+    closeButton.style.borderRadius = '8px';
+    closeButton.style.marginRight = '32px';
     closeButton.addEventListener("click", closeGame);
+
+    // color: #fff;
+    // float: right;
+    // font-size: 28px;
+    // font-weight: bold;
+    // cursor: pointer;
+    // margin-right: 20px;
+//     width: 42px;
+// height: 38px;
+
+// background: #FF05AF;
+// border: 3px solid #000000;
+// box-shadow: 2px 3px 0px #000000;
+// border-radius: 8px;
     
     // Создаем кнопку переключения в полноэкранный режим
     var fullscreenButton = document.createElement("button");
     fullscreenButton.textContent = "Полный экран";
     fullscreenButton.style.position = "absolute";
+    fullscreenButton.style.fontWeight = 'bold';
+    fullscreenButton.style.width ='152px'
+    fullscreenButton.style.height='38px';
     fullscreenButton.style.top = "10px";
     fullscreenButton.style.left = "10px";
+    fullscreenButton.style.cursor = 'pointer';
+    fullscreenButton.style.color = '##6500B6';
+    fullscreenButton.style.backgroundColor = '#FBD800';
+    fullscreenButton.style.boxShadow='2px 3px 0px #000000'
+    fullscreenButton.style.border = '3px solid #000000';
+    fullscreenButton.style.borderRadius = '8px';
+    fullscreenButton.style.marginLeft = '32px';
+    fullscreenButton.style.borderRadius = '4px';
     fullscreenButton.addEventListener("click", toggleFullscreen);
     
+
+//     width: 152px;
+// height: 38px;
+
+// background: #FBD800;
+    // position: fixed;
+    // z-index: 99999;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // margin: 0;
+    // padding: 0;
+    // overflow: auto;
     // Добавляем элементы на страницу
     gameContainer.appendChild(closeButton);
     gameContainer.appendChild(fullscreenButton);
@@ -95,3 +144,4 @@ elements.forEach(function(element) {
     playGame('Plants vs Zombie Memories.html')
   });
 });
+
