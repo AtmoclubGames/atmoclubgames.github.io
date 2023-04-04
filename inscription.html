@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Card Game</title>
+    <link rel="stylesheet" href="css/inscription.css">
+</head>
+<body>
+    <div class="container">
+        <div class="players">
+            <div class="player" id="player1">
+                <div class="health-bar">
+                    <span class="health-label">Player 1 Health:</span>
+                    <div class="health-value"></div>
+                </div>
+                <div class="deck">
+                    <span class="deck-label">Deck:</span>
+                    <div class="deck-count"></div>
+                </div>
+                <div class="hand">
+                    <span class="hand-label">Hand:</span>
+                    <div class="hand-cards"></div>
+                </div>
+            </div>
+            <div class="player" id="player2">
+                <div class="health-bar">
+                    <span class="health-label">Player 2 Health:</span>
+                    <div class="health-value"></div>
+                </div>
+                <div class="deck">
+                    <span class="deck-label">Deck:</span>
+                    <div class="deck-count"></div>
+                </div>
+                <div class="hand">
+                    <span class="hand-label">Hand:</span>
+                    <div class="hand-cards"></div>
+                </div>
+            </div>
+        </div>
+        <div class="game-board">
+            <div class="game-log">
+                <h2>Game Log:</h2>
+                <div class="log-messages"></div>
+            </div>
+            <div class="enemy">
+                <div class="enemy-health-bar">
+                    <span class="health-label">Enemy Health:</span>
+                    <div class="health-value"></div>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Cards:</h2>
+                <div class="card-pile"></div>
+                <div class="played-cards"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="end-turn">End Turn</button>
+            <button id="play-card">Play Card</button>
+            <button id="forfeit-game">Forfeit Game</button>
+        </div>
+    </div>
+    <script src="js/inscription.js"></script>
+</body>
+</html>
