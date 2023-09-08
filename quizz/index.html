@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="background">
+            <!-- Фоновая картинка -->
+        </div>
+        <div class="logo">
+            <!-- Логотип -->
+        </div>
+        <div class="play-button" @click="startGame">
+            <!-- Круглая кнопка "Играть" -->
+            Играть
+        </div>
+    </div>
+    <div id="app">
+        <!-- ... ваш код стартового экрана ... -->
+        <div id="category-selection" >
+            <div class="category-button" @click="selectCategory('Фильмы')">Фильмы</div>
+            <div class="category-button" @click="selectCategory('Сказки')">Сказки</div>
+            <!-- Добавьте кнопки для других категорий -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
